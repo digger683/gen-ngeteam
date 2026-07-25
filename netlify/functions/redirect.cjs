@@ -18,14 +18,10 @@ function isBot(userAgent) {
     const ua = userAgent.toLowerCase();
     // Extensive list of bots and crawlers
     const bots = [
-        'facebookexternalhit', 'Facebot', 'Twitterbot', 'LinkedInBot',
-    'WhatsApp', 'TelegramBot', 'Pinterest', 'Googlebot', 'bingbot',
-    'AdsBot-Google', 'Google-Adwords-Instant', 'Mediapartners-Google',
-    'Storebot-Google', 'Google-Ads-Creatives-Scanner', 'Google-Proxy',
-    'Facebot', 'facebookplatform', 'facebookexternalhit/1.1',
-    'Instagram', 'TikTok', 'Twitterbot/1.1', 'LinkedInBot/1.0',
-    'Slackbot', 'Discordbot', 'Bot', 'Scanner', 'Headless', 'Cyber',
-    'Zgrab', 'Nmap', 'Security', 'Check', 'Cloudflare-Traffic-Manager'
+        'facebookexternalhit', 'twitterbot', 'whatsapp', 'linkedinbot',
+        'pinterest', 'slackbot', 'telegrambot', 'discordbot', 'googlebot',
+        'bingbot', 'yandex', 'duckduckgo', 'baidu', 'ahern', 'instagram',
+        'mj12bot', 'semrush', 'ahrefs', 'dotbot', 'rogerbot', 'exabot'
     ];
     return bots.some(bot => ua.includes(bot));
 }
