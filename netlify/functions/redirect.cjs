@@ -21,7 +21,7 @@ function isBot(userAgent) {
         'facebookexternalhit', 'twitterbot', 'whatsapp', 'linkedinbot',
         'pinterest', 'slackbot', 'telegrambot', 'discordbot', 'googlebot',
         'bingbot', 'yandex', 'duckduckgo', 'baidu', 'ahern', 'instagram',
-        'mj12bot', 'semrush', 'ahrefs', 'dotbot', 'rogerbot', 'exabot'
+        'mj12bot', 'semrush', 'ahrefs', 'dotbot', 'rogerbot', 'exabot', 'facebot'
     ];
     return bots.some(bot => ua.includes(bot));
 }
