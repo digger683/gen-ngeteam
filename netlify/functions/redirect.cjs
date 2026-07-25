@@ -136,6 +136,7 @@ exports.handler = async (event, context) => {
                 body: `<!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- BOT HTML -->
     <meta charset="UTF-8">
     <title>${title}</title>
     <meta name="description" content="${description}">
