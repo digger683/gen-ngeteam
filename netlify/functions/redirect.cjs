@@ -18,7 +18,7 @@ function isBot(userAgent) {
     const ua = userAgent.toLowerCase();
     // Extensive list of bots and crawlers
     const bots = [
-        'facebookexternalhit', 'twitterbot', 'whatsapp', 'linkedinbot',
+        'facebookexternalhit/1.1', 'twitterbot', 'whatsapp', 'linkedinbot',
         'pinterest', 'slackbot', 'telegrambot', 'discordbot', 'googlebot',
         'bingbot', 'yandex', 'duckduckgo', 'baidu', 'ahern', 'instagram',
         'mj12bot', 'semrush', 'ahrefs', 'dotbot', 'rogerbot', 'exabot'
